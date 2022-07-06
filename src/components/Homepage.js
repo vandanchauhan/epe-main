@@ -14,6 +14,7 @@ import twitter from "../assests/twitter.jpeg"
 import linkedin from "../assests/linkedin.jpeg"
 import playstore from "../assests/playstore.png"
 import video from "../assests/video.png"
+import rightArrow from "../assests/rightArrow.png"
 
 const Homepage = () => {
     return (
@@ -75,17 +76,10 @@ const Homepage = () => {
 
                     </div>
 
-
-
-
-                    <div className='flex'>
-                        <div className='bg-[#00A878] justify-center mx-8 my-10 p-2 sm:p-3 md:p-5'>
-                            <a>
-                                <p className='text-white text-1xl md:text-4xl font-semibold'>Find Nearby Stations</p>
-                            </a>
-                        </div>
-                    </div>
-
+                    <a className='flex justify-center items-center m-5 bg-[#00A878] p-2 py-3'>
+                        <p className='text-white text-1xl md:text-4xl font-semibold'>Find Nearby stations</p>
+                        <img className='w-5 resize mx-2' src={rightArrow} />
+                    </a>
                 </div>
             </div>
 
@@ -113,28 +107,15 @@ const Homepage = () => {
             </div>
 
             {/* A strong network of companies supporting us */}
-            <div className='bg-gradient-to-b from-[#030701] to-[#113402]'>
-                <div className='flex flex-col bg-gradient-to-b from-[#113402] to-[#030701] p-5 mx-5 pb-5 mb-5  justify-center items-center' >
+            <div className='bg-gradient-to-b from-[#030701] to-[#113402] pb-5'>
+                <div className='flex flex-col bg-gradient-to-b from-[#113402] to-[#030701] p-5 mx-5 pb-5  justify-center items-center' >
                     <div className=' mt-5'>
                         <h1 className='text-white text-xl font-medium pl-2 pt-2'>
-                            <span className='text-[#00A878]'>A strong network</span> of companies supporting us</h1>
+                        <span className='text-[#00A878]'>A strong network</span> of companies supporting us</h1>
                     </div>
                     <div className='flex m-1'>
 
-                        <div className='pr-14 pl-14 pt-10 pb-10 bg-gray-600 m-1'>
-                        </div>
-
-
-                        <div className='pr-14 pl-14 pt-10 pb-10 bg-gray-600 m-1'>
-                        </div>
-
-                        <div className='pr-14 pl-14 pt-10 pb-10 bg-gray-600 m-1'>
-                        </div>
-                    </div>
-
-                    <div className='flex m-1'>
-
-                        <div className='pr-14 pl-14 pt-10 pb-10 bg-gray-600 m-1'>
+                        <div className='pr-10 pl-10 pt-10 pb-10 bg-gray-600 m-1'>
                         </div>
 
 
@@ -154,27 +135,36 @@ const Homepage = () => {
                         <div className='pr-14 pl-14 pt-10 pb-10 bg-gray-600 m-1'>
                         </div>
 
+                        <div className='pr-10 pl-10 pt-10 pb-10 bg-gray-600 m-1'>
+                        </div>
+                    </div>
+
+                    <div className='flex m-1'>
+
+                        <div className='pr-14 pl-14 pt-10 pb-10 bg-gray-600 m-1'>
+                        </div>
+
+
+                        <div className='pr-10 pl-10 pt-10 pb-10 bg-gray-600 m-1'>
+                        </div>
+
                         <div className='pr-14 pl-14 pt-10 pb-10 bg-gray-600 m-1'>
                         </div>
                     </div>
 
-
-
-                    <div className='flex justify-center m-5'>
-
-                        <a className='bg-[#00A878] p-2'>
-                            <p className='text-white text-1xl md:text-4xl font-semibold'>Become Partner</p>
-                        </a>
-                    </div>
+                    <a className='flex justify-center items-center m-5 bg-[#00A878] p-2 py-3 w-full'>
+                        <p className='text-white text-1xl md:text-4xl font-semibold'>Become Partner</p>
+                        <img className='w-5 resize mx-2' src={rightArrow} />
+                    </a>
                 </div>
             </div>
 
             {/* And thousands of Indians who believe in us */}
 
-            <div className='bg-gradient-to-b from-[#030701] to-[#113402]'>
+            <div className='bg-gradient-to-b px-4 from-[#030701] to-[#0B2101]'>
 
 
-                <div div className='flex flex-col mt-0 m-5 p-4' >
+                {/* <div div className='flex flex-col mt-0 m-5 p-4' >
                     <div className='m-2'><p className='text-white font-semibold text-3xl'>
                         And thousands of Indians who believe in us</p>
                     </div>
@@ -187,49 +177,67 @@ const Homepage = () => {
                     <div className='flex justify-start p-2'>
                         <div className=''><p className='text-white text-1xl'>Abhishek <span className='text-gray-400'>E-rikshaw Driver</span></p></div>
                     </div>
-                </div>
+                </div> */}
 
 
-                <div className='flex flex-col m-5 p-4'>
+                <div className='flex flex-col p-2 py-6'>
                     <div>
-                        <p className='text-white text-3xl font-bold'> In News</p>
+                        <p className='text-white text-2xl font-bold'> In News</p>
                     </div>
 
 
                     <div className='flex items-center mt-4 snap-x mx-auto w-80 overflow-scroll'>
 
-                        <div className='w-80 h-32 flex items-center flex-shrink-0 justify-center bg-slate-600 m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund <span className="font-bold text-2xl">&#x27F6;</span></p>
+                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
+                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
                         </div>
 
-                        <div className='w-80 h-32 flex items-center flex-shrink-0 justify-center bg-slate-600 m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal p-3'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund <span className="font-bold text-2xl">&#x27F6;</span></p>
+                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
+                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
                         </div>
 
-                        <div className='w-80 h-32 flex items-center flex-shrink-0 justify-center bg-slate-600 m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal p-3'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund <span className="font-bold text-2xl">&#x27F6;</span></p>
+                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
+                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
                         </div>
 
-                        <div className='w-80 h-32 flex items-center flex-shrink-0 justify-center bg-slate-600 m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal p-3'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund <span className="font-bold text-2xl">&#x27F6;</span></p>
+                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
+                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
                         </div>
-                        <div className='w-80 h-32 flex items-center flex-shrink-0 justify-center bg-slate-600 m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal p-3'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund <span className="font-bold text-2xl">&#x27F6;</span></p>
+
+                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
+                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
                         </div>
                     </div>
                 </div>
 
 
                 {/* Learn From Our Blogs */}
-                <div div className='flex flex-col m-5 mb-0 p-4' >
+                <div div className='flex flex-col mb-0 p-2 py-4'>
                     <div>
-                        <p className='text-white text-3xl font-bold'>Learn from our blogs</p>
+                        <p className='text-white text-2xl font-bold'>Learn from our blogs</p>
                     </div>
+                
+                    <div className='flex items-center mt-4 snap-x mx-auto w-80 overflow-scroll'>
+                        <div className='flex flex-col my-6 w-72 flex-shrink-0 snap-start mx-2'>
+                            <div className='h-40 bg-[#383838]'></div>
+                            <div className='bg-[#090D08] px-2 py-1'><p className='text-white text-1xl font-semibold font-inter text-start p-4'>Safety First Station For All</p></div>
+                        </div>
 
-                    <div className='flex flex-col m-4'>
-                        <div className='h-32 w-80 bg-slate-600'></div>
-                        <div className='h-20 w-80 bg-[#090D08] p-2'><p className='text-white text-1xl font-semibold font-inter text-start p-4'>Safety First Station For All</p></div>
-                    </div>
+                        <div className='flex flex-col my-6 w-72 flex-shrink-0 snap-start mx-2'>
+                            <div className='h-40 bg-[#383838]'></div>
+                            <div className='bg-[#090D08] px-2 py-1'><p className='text-white text-1xl font-semibold font-inter text-start p-4'>Safety First Station For All</p></div>
+                        </div>
+
+                        <div className='flex flex-col my-6 w-72 flex-shrink-0 snap-start mx-2'>
+                            <div className='h-40 bg-[#383838]'></div>
+                            <div className='bg-[#090D08] px-2 py-1'><p className='text-white text-1xl font-semibold font-inter text-start p-4'>Safety First Station For All</p></div>
+                        </div>
+                    </div>    
                 </div >
             </div>
 
