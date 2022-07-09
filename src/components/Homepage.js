@@ -55,19 +55,19 @@ const Homepage = () => {
             </div>
 
             {/* Para and scooter */}
-            <div className='bg-gradient-to-b from-[#030701] to-[#113402] flex md:justify-between justify- flex-col justify-center items-center pt-8 pl-4 pr-4 md:pr-20 md:pl-20'>
+            <div className='bg-gradient-to-b from-[#030701] to-[#113402] flex md:justify-between justify- flex-col justify-center items-center pt-8 pl-5 pr-5 md:pr-20 md:pl-20'>
 
                 <div className='flex md:flex-row flex-col items-center justify-between w-100 md:pb-20'>
                     <div className='text-white px-2 md:pt-12'>
                         <p className='text-3xl md:text-4xl lg:text-5xl leading-10 font-bold font-sans'> Leading charging </p> <p className='text-3xl md:text-4xl lg:text-5xl leading-10 font-bold font-sans pb-2'>infra provider.</p>
-                        <p className='text-base sm:text-lg leading-6 font-light  opacity-60 pt-4'> Say goodbye to days without charging </p> <p className='text-base sm:text-lg leading-6 font-light opacity-60'>stations near you.</p>
+                        <p className='text-base sm:text-lg leading-6 font-light  opacity-60 pt-2'> Say goodbye to days without charging </p> <p className='text-base sm:text-lg leading-6 font-light opacity-60'>stations near you.</p>
                     </div>
 
                     <div className='mt-20 lg:justify-end w-64 lg:w-96'><img src={scooter} /></div>
                 </div>
 
                 {/*Providing Charging Near Your Home*/}
-                <div className='flex flex-col mx-1 mb-6 md:mt-6 bg-gradient-to-b from-[#113402] to-[#030701]'>
+                <div className='flex flex-col mb-6 md:mt-6 bg-gradient-to-b from-[#113402] to-[#030701]'>
                     <div>
                         <p className='text-white text-2xl md:text-4xl p-6 font-semibold leading-8'>Providing charging near <span className='text-teal-500'>your home</span></p>
                         <div className='flex md:justify-evenly justify-between pt-10 pr-2 pl-2'>
@@ -122,18 +122,17 @@ const Homepage = () => {
 
 
             {/* Just Locate, Scan, Charge */}
-            <div div className='flex flex-col bg-gradient-to-b from-[#113402] to-[#030701] p-6 pt-8 justify-center items-center' >
-                <div className='text-white text-left text-3xl leading-8 md:text-4xl font-semibold leading-8'>Just locate, scan and charge</div>
+            < div className='flex flex-col bg-gradient-to-b from-[#113402] to-[#030701] pl-5 pr-5 md:pr-20 md:pl-20 md: pt-8 items-center' >
+                <div className=' md:self-start'><p className='text-white text-3xl md:text-4xl font-semibold leading-8'>Just locate, scan and charge</p></div>
 
-                <div className='bg-black-500 m-2 my-10'>
-                    <div className='pr-4'>
-                        <div><img src={locate} /></div>
-                    </div>
+
+                <div className='pr-4 pt-12'>
+                    <div><img src={locate} /></div>
                 </div>
 
 
                 <div className=' bg-black-500'><img src={phone} /></div>
-                <div className='bg-black-200 w-full px-8 py-2 border-2 border-gray-800'>
+                <div className='bg-black-200 w-2/3 md:w-1/3 py-2 border-2 border-gray-800 mb-4'>
                     <a className='flex flex-row justify-center items-center'>
                         <img className='w-12 mr-2' src={playstore} />
                         <h1 className='text-white font-bold text-1xl'>Download The App</h1>
@@ -142,8 +141,8 @@ const Homepage = () => {
             </div>
 
             {/* A strong network of companies supporting us */}
-            <div className='bg-gradient-to-b from-[#030701] to-[#113402] pb-5'>
-                <div className='flex flex-col bg-gradient-to-b from-[#113402] to-[#030701] p-5 mx-5 pb-5  justify-center items-center' >
+            <div className='bg-gradient-to-b from-[#030701] to-[#113402] pl-5 pr-5 md:pr-20 md:pl-20 pb-5'>
+                <div className='flex flex-col bg-gradient-to-b from-[#113402] to-[#030701] pl-4 pr-4 md:pr-20 md:pl-20 pb-5  justify-center items-center' >
                     <div className=' mt-5'>
                         <h1 className='text-white text-xl font-medium pl-2 pt-2'>
                             <span className='text-[#00A878]'>A strong network</span> of companies supporting us</h1>
