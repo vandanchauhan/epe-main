@@ -1,6 +1,6 @@
 import React from 'react'
-import "./video.css"
-import { Carousel } from 'react-bootstrap'
+// import "./video.css"
+// import { Carousel } from 'react-bootstrap'
 import logo from "../assests/logo.png"
 import scooter from "../assests/scooter.png"
 import home1 from "../assests/home1.png"
@@ -15,60 +15,65 @@ import india from "../assests/india.png"
 import twitter from "../assests/twitter.png"
 import linkedin from "../assests/linkedin.png"
 import playstore from "../assests/playstore.png"
-import video1 from "../assests/video1.mp4"
-import video2 from "../assests/video2.mp4"
-import video3 from "../assests/video3.mp4"
-import ReactPlayer from 'react-player'
-import "bootstrap/dist/css/bootstrap.css"
+// import video1 from "../assests/video1.mp4"
+// import video2 from "../assests/video2.mp4"
+// import video3 from "../assests/video3.mp4"
+// import ReactPlayer from 'react-player'
+// import "bootstrap/dist/css/bootstrap.css"
 import rightArrow from "../assests/rightArrow.png"
 
 const Homepage = () => {
 
 
-    const videoProperties = [
-        {
-            id: 1,
-            title: "Video 1",
-            src: video1,
-            credit: "Video By Nikhil",
-        },
-        {
-            id: 2,
-            title: "Video 2",
-            src: video2,
-            credit: "Video By Nikhil",
-        },
-        {
-            id: 3,
-            title: "Video 3",
-            src: video3,
-            credit: "Video By Nikhil",
-        },
-    ]
+    // const videoProperties = [
+    //     {
+    //         id: 1,
+    //         title: "Video 1",
+    //         src: video1,
+    //         credit: "Video By Nikhil",
+    //     },
+    //     {
+    //         id: 2,
+    //         title: "Video 2",
+    //         src: video2,
+    //         credit: "Video By Nikhil",
+    //     },
+    //     {
+    //         id: 3,
+    //         title: "Video 3",
+    //         src: video3,
+    //         credit: "Video By Nikhil",
+    //     },
+    // ]
 
     return (
-        <div className="bg-gradient-to-b from-[#030701] to-[#113402]">
+        <div className="bg-gradient-to-b from-[#030701] to-[#113402] m-0 p-0  w-auto">
 
             {/* Electripe Icon */}
-            <div className='flex w-40 justify-start mt-8 ml-8'>
+            <div className='flex w-40 md:w-50 justify-start mt-8 ml-8'>
                 <div className=''><img src={logo} /> </div>
             </div>
 
             {/* Para and scooter */}
-            <div className='bg-gradient-to-b from-[#030701] to-[#113402] flex md:flex-row lg:flex-col md:justify-between justify- flex-col justify-center items-center pt-8 pl-4 pr-4'>
-                <div className='text-white px-2'>
-                    <p className='text-4xl pb-2 leading-10 font-semibold font-sans'> Leading charging infra provider</p>
-                    <p className='text-lg pt-4 leading-6 font-light'> Say goodbye to days without charging station near you.</p>
+            <div className='bg-gradient-to-b from-[#030701] to-[#113402] flex md:justify-between justify- flex-col justify-center items-center pt-8 pl-4 pr-4 md:pr-20 md:pl-20'>
+
+                <div className='flex md:flex-row flex-col items-center justify-between w-100 md:pb-20'>
+                    <div className='text-white px-2 md:pt-12'>
+                        <p className='text-3xl md:text-4xl lg:text-5xl leading-10 font-bold font-sans'> Leading charging </p> <p className='text-3xl md:text-4xl lg:text-5xl leading-10 font-bold font-sans pb-2'>infra provider.</p>
+                        <p className='text-base sm:text-lg leading-6 font-light  opacity-60 pt-4'> Say goodbye to days without charging </p> <p className='text-base sm:text-lg leading-6 font-light opacity-60'>stations near you.</p>
+                    </div>
+
+                    <div className='mt-20 lg:justify-end w-64 lg:w-96'><img src={scooter} /></div>
                 </div>
-                <div className='mt-20 lg:justify-end w-64'><img src={scooter} /></div>
+
                 {/*Providing Charging Near Your Home*/}
                 <div className='flex flex-col mx-1 mb-6 md:mt-6 bg-gradient-to-b from-[#113402] to-[#030701]'>
                     <div>
                         <p className='text-white text-2xl md:text-4xl p-6 font-semibold leading-8'>Providing charging near <span className='text-teal-500'>your home</span></p>
                         <div className='flex md:justify-evenly justify-between pt-10 pr-2 pl-2'>
-                            <div className='w-12'><img src={home1} /></div>
-                            <div className='w-12'><img src={home2} /></div>
-                            <div className='w-12'><img src={home3} /></div>
+                            <div className='w-12 animate-pulse'><img src={home1} /></div>
+                            <div className='w-12 animate-pulse'><img src={home2} /></div>
+                            <div className='w-12 animate-pulse'><img src={home3} /></div>
                         </div>
                     </div>
 
@@ -105,8 +110,9 @@ const Homepage = () => {
 
                     </div>
 
-                    <a className='flex justify-center items-center m-5 bg-[#00A878] p-2 py-3'>
-                        <p className='text-white text-1xl md:text-4xl font-semibold'>Find Nearby stations</p>
+
+                    <a className='flex justify-center items-center m-5 bg-[#00A878] p-1 py-3'>
+                        <p className='text-white text-1xl md:text-3xl font-semibold'>Find Nearby stations</p>
                         <img className='w-5 resize mx-2' src={rightArrow} />
                     </a>
                 </div>
@@ -193,7 +199,7 @@ const Homepage = () => {
             <div className='bg-gradient-to-b px-4 from-[#030701] to-[#0B2101]'>
 
 
-                <div div className='flex flex-col mt-0 m-5 p-4' >
+                {/* <div div className='flex flex-col mt-0 m-5 p-4' >
                     <div className='m-2'><p className='text-white font-semibold text-3xl'>
                         And thousands of Indians who believe in us</p>
                     </div>
@@ -209,6 +215,7 @@ const Homepage = () => {
                                                 pip={true}
                                                 controls={true}
                                                 playing={true}
+
                                             />
                                             <Carousel.Caption>
                                                 <h3>{videoObj.title}</h3>
@@ -223,7 +230,7 @@ const Homepage = () => {
                     <div className='flex justify-start p-2'>
                         <div className=''><p className='text-white text-1xl'>Abhishek <span className='text-gray-400'>E-rikshaw Driver</span></p></div>
                     </div>
-                </div>
+                </div> */}
 
 
                 <div className='flex flex-col p-2 py-6'>
