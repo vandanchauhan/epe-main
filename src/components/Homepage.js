@@ -135,7 +135,7 @@ const Homepage = () => {
                 <div className='bg-black-200 w-2/3 md:w-1/3 py-2 border-2 border-gray-800 mb-4'>
                     <a className='flex flex-row justify-center items-center'>
                         <img className='w-12 mr-2' src={playstore} />
-                        <h1 className='text-white font-bold text-1xl'>Download The App</h1>
+                        <p className='text-white font-bold text-1xl md:text-2xl'>Download The App</p>
                     </a>
                 </div>
             </div>
@@ -232,39 +232,39 @@ const Homepage = () => {
                 </div> */}
 
 
-                <div className='flex flex-col p-2 py-6'>
+                <div className='flex flex-col pl-5 pr-5 md:pr-20 md:pl-20 w-auto'>
                     <div>
-                        <p className='text-white text-2xl font-bold'> In News</p>
+                        <p className='text-white text-3xl md:text-4xl font-bold pt-5'> In News</p>
                     </div>
 
+                    <div className='w-full h-40 md:h-96'>
+                        <div className='flex mt-4 snap-x mx-auto w-full  h-40 md:h-80 overflow-scroll'>
 
-                    <div className='flex items-center mt-4 snap-x mx-auto w-80 overflow-scroll'>
+                            <div className='w-full h-40 md:h-80 px-3 py-4 flex items-center flex-shrink-0 justify-center bg-[#090D08] m-2 snap-start'>
+                                <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                                <img className='w-5 ml-1 mt-1' src={rightArrow} />
+                            </div>
 
-                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
-                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
-                        </div>
+                            <div className='w-full h-40 md:h-80 px-3 py-4 flex items-center flex-shrink-0 justify-center bg-[#090D08] m-2 snap-start'>
+                                <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                                <img className='w-5 ml-1 mt-1' src={rightArrow} />
+                            </div>
 
-                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
-                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
-                        </div>
+                            <div className='w-full h-40 md:h-80 px-3 py-4 flex items-center flex-shrink-0 justify-center bg-[#090D08] m-2 snap-start'>
+                                <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                                <img className='w-5 ml-1 mt-1' src={rightArrow} />
+                            </div>
 
-                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
-                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
-                        </div>
+                            <div className='w-full h-40 md:h-80 px-3 py-4 flex items-center flex-shrink-0 justify-center bg-[#090D08] m-2 snap-start'>
+                                <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                                <img className='w-5 ml-1 mt-1' src={rightArrow} />
+                            </div>
 
-                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
-                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
-                        </div>
-
-                        <div className='w-72 h-20 px-3 py-4 flex items-start flex-shrink-0 justify-between bg-[#090D08] m-2 snap-start'>
-                            <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
-                            <img className='w-5 ml-1 mt-1' src={rightArrow} />
-                        </div>
-                    </div>
+                            <div className='w-full h-40 md:h-80 px-3 py-4 flex items-center flex-shrink-0 justify-center bg-[#090D08] m-2 snap-start'>
+                                <p className='text-white text-base font-semibold font-inter normal'><span className='text-[#00A878]'>ElectricPe</span> raises 220M in seed fund</p>
+                                <img className='w-5 ml-1 mt-1' src={rightArrow} />
+                            </div>
+                        </div></div>
                 </div>
 
 
@@ -294,30 +294,30 @@ const Homepage = () => {
             </div>
 
             {/* Footer */}
-            <div div className='p-8 flex flex-col bg-black' >
-                <div className='text-gray-400 pb-2 pt-2'>Our Website</div>
-                <div className='text-gray-400 pb-2 pt-2'>Contact Us</div>
+            <div div className='p-8 flex flex-col bg-[#090D08]' >
+                <div className='text-[#666666] pb-2 pt-2'>Our Website</div>
+                <div className='text-[#666666] pb-2 pt-2'>Contact Us</div>
 
 
                 <div className='flex pb-4 pt-2'>
-                    <div><img style={{ "width": "40px", "height": "40px" }} src={linkedin} /></div>
+                    <div className='pr-2'><img style={{ "width": "30px", "height": "30px" }} src={linkedin} /></div>
                     <div>
-                        <img style={{ "width": "40px", "height": "40px" }} src={twitter} />
+                        <img style={{ "width": "30px", "height": "30px" }} src={twitter} />
                     </div>
 
                 </div>
 
 
-                <div className=' pb-2 pt-4' style={{ "width": "50%" }}><img src={logo} /></div>
+                <div className='pt-4 w-80'>
+                    <div className='w-32 md:w-40' ><img src={logo} /></div>
 
-                <div className='flex justify-start'>
-                    <div>
-                        <img style={{ "width": "20px", "height": "20px" }} src={india} /></div>
-                    <div className='text-white pl-1'>
-                        Ab India Chalega ElectricPe</div>
+
+                    <div >
+                        <img className='w-52' src={india} /></div>
                 </div>
 
-                <div className='flex text-gray-400  pb-2 pt-4'>Whatsapp Technologies Private Limited</div>
+
+                <div className='flex text-[#666666] pb-2 pt-4'>Whatsapp Technologies Private Limited</div>
             </div >
 
 
