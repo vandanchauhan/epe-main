@@ -269,9 +269,9 @@ const Homepage = () => {
 
 
                 {/* Learn From Our Blogs */}
-                <div div className='flex flex-col mb-0 p-2 py-4'>
+                <div div className='flex flex-col pl-5 pr-5 md:pr-20 md:pl-20 w-auto'>
                     <div>
-                        <p className='text-white text-2xl font-bold'>Learn from our blogs</p>
+                        <p className='text-white text-3xl md:text-4xl font-bold pt-5'>Learn from our blogs</p>
                     </div>
 
                     <div className='flex items-center mt-4 snap-x mx-auto w-80 overflow-scroll'>
