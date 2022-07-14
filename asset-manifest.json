@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vandanchauhan/epe-main/static/css/main.0f0d24a3.css",
+    "main.js": "/vandanchauhan/epe-main/static/js/main.72b416e1.js",
+    "static/media/phone.png": "/vandanchauhan/epe-main/static/media/phone.e55a5f49d1a50ef02f98.png",
+    "static/media/scooter.png": "/vandanchauhan/epe-main/static/media/scooter.9ddff2d8c15045e88f26.png",
+    "static/media/group.png": "/vandanchauhan/epe-main/static/media/group.12d20f9a4bf225597be7.png",
+    "index.html": "/vandanchauhan/epe-main/index.html",
+    "main.0f0d24a3.css.map": "/vandanchauhan/epe-main/static/css/main.0f0d24a3.css.map",
+    "main.72b416e1.js.map": "/vandanchauhan/epe-main/static/js/main.72b416e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f0d24a3.css",
+    "static/js/main.72b416e1.js"
+  ]
+}
