@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/epe-main/static/css/main.0f0d24a3.css",
+    "main.js": "/epe-main/static/js/main.2e26b295.js",
+    "static/media/phone.png": "/epe-main/static/media/phone.e55a5f49d1a50ef02f98.png",
+    "static/media/scooter.png": "/epe-main/static/media/scooter.9ddff2d8c15045e88f26.png",
+    "static/media/group.png": "/epe-main/static/media/group.12d20f9a4bf225597be7.png",
+    "index.html": "/epe-main/index.html",
+    "main.0f0d24a3.css.map": "/epe-main/static/css/main.0f0d24a3.css.map",
+    "main.2e26b295.js.map": "/epe-main/static/js/main.2e26b295.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f0d24a3.css",
+    "static/js/main.2e26b295.js"
+  ]
+}
