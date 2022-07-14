@@ -9,18 +9,24 @@ import home3 from "../assests/home3.png"
 import flash from "../assests/flash.png"
 import remote from "../assests/remote.png"
 import money from "../assests/money.png"
-import locate from "../assests/group.png"
+import group from "../assests/group.png"
 import phone from "../assests/phone.png"
 import india from "../assests/india.png"
 import twitter from "../assests/twitter.png"
 import linkedin from "../assests/linkedin.png"
 import playstore from "../assests/playstore.png"
+import one from "../assests/one.png"
+import two from "../assests/two.png"
+import three from "../assests/three.png"
+import four from "../assests/four.png"
+import five from "../assests/five.png"
 // import video1 from "../assests/video1.mp4"
 // import video2 from "../assests/video2.mp4"
 // import video3 from "../assests/video3.mp4"
 // import ReactPlayer from 'react-player'
 // import "bootstrap/dist/css/bootstrap.css"
 import rightArrow from "../assests/rightArrow.png"
+import Typical from "react-typical"
 
 const Homepage = () => {
 
@@ -69,7 +75,19 @@ const Homepage = () => {
                 {/*Providing Charging Near Your Home*/}
                 <div className='flex flex-col mb-6 md:mt-6 bg-gradient-to-b from-[#113402] to-[#030701]'>
                     <div>
-                        <p className='text-white text-2xl md:text-4xl p-6 font-semibold leading-8'>Providing charging near <span className='text-teal-500'>your home</span></p>
+                        <p className='text-white text-2xl md:text-4xl p-6 font-semibold leading-8 h-24'>Providing charging near <span className='text-teal-500'>your{' '}<Typical
+                            loop={Infinity}
+                            wrapper="n"
+                            steps={[
+                                'home',
+                                2000,
+                                'office',
+                                2000,
+                                'society',
+                                2000
+                            ]}
+                        />
+                        </span></p>
                         <div className='flex md:justify-evenly justify-between pt-10 pr-2 pl-2'>
                             <div className='w-12 animate-pulse'><img src={home1} /></div>
                             <div className='w-12 animate-pulse'><img src={home2} /></div>
@@ -126,8 +144,31 @@ const Homepage = () => {
                 <div className=' md:self-start'><p className='text-white text-3xl md:text-4xl font-semibold leading-8'>Just locate, scan and charge</p></div>
 
 
-                <div className='pr-4 pt-12'>
-                    <div><img src={locate} /></div>
+
+
+                <div className='flex pr-4 pt-12'>
+                    <div className='hidden md:block' >
+                        <img src={group} />
+                    </div>
+
+                    <div className='md:hidden flex flex-col mr-2'>
+                        <div className='p-2'> <img src={one} /></div>
+                        <div className='self-end pr-2'> <img src={two} /></div>
+                        <div className='p-2'> <img src={three} /></div>
+                        <div className='self-start pl-2'> <img src={four} /></div>
+                        <div className='p-2'> <img src={five} /></div>
+                    </div>
+
+                    <div className='md:hidden flex flex-col justify-between text-white ml-2 pb-2'>
+                        <div> <p className='font-semibold text-lg'>Locate the station</p>
+                            <p className='font-light text-sm opacity-60'>Open ElectriPe app and locate the nearest EV charging point</p></div>
+                        <div> <p className='font-semibold text-lg'>Scan and charge</p>
+                            <p className='font-light text-sm opacity-60'>Scan the QR code and plug the charger</p>
+                        </div>
+                        <div> <p className='font-semibold text-lg'>Pay</p>
+                            <p className='font-light text-sm opacity-60'>Pay via the app for what you consume</p></div>
+                    </div>
+
                 </div>
 
 
